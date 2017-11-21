@@ -37,7 +37,7 @@ def turn(board)
 
  index = input_to_index(input)
 
- input_to_index(input)
+
 
 
 end
