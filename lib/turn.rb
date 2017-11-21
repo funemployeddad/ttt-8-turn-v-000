@@ -39,5 +39,12 @@ def turn(board)
 
  input_to_index(input)
 
+ valid_move?(board, index)
+
+ position_taken(board, index)
+
+move(board, position, char) 
+
+display_board(board)
 
 end
