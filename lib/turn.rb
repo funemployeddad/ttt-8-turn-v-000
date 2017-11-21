@@ -33,9 +33,4 @@ end
 
 def turn(board)
  puts "Please enter 1-9"
- input_to_index(input)
- move(board, position, char)
- valid_move?(board, index)
- position_taken?(board, index)
- display_board(board)
- end
+end
