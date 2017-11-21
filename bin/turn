@@ -13,6 +13,9 @@ input = gets.strip
 
 index = input_to_index(input)
 
-move(board, index)
+input_to_index(input)
+move(board, position, char)
+valid_move?(board, index)
+position_taken?(board, index)
 
 display_board(board)
