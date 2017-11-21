@@ -37,8 +37,5 @@ def turn(board)
 
  index = input_to_index(input)
  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
- valid_move?(board, index)
- move(board, position, char)
- display_board(board)
 
 end
