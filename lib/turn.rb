@@ -28,3 +28,7 @@ else board[index] == "X" || board[index] == "O"
   true
 end
 end
+
+def turn(board)
+ puts "Please enter 1-9"
+ end
