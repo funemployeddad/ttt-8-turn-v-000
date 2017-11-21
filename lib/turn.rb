@@ -1,4 +1,8 @@
-def display_board(board)
+def turn(board)
+ puts "Please enter 1-9"
+ end
+
+ def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
@@ -28,7 +32,3 @@ else board[index] == "X" || board[index] == "O"
   true
 end
 end
-
-def turn(board)
- puts "Please enter 1-9"
- end
