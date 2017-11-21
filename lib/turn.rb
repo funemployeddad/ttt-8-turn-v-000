@@ -1,6 +1,4 @@
-def turn(board)
- puts "Please enter 1-9"
- end
+
 
  def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -32,3 +30,12 @@ else board[index] == "X" || board[index] == "O"
   true
 end
 end
+
+def turn(board)
+ puts "Please enter 1-9"
+ input_to_index(input)
+ move(board, position, char)
+ valid_move?(board, index)
+ position_taken?(board, index)
+ display_board(board)
+ end
