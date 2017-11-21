@@ -41,4 +41,5 @@ def turn(board)
 
  position_taken?(board, index)
 
+ move(board, position, char)
 end
