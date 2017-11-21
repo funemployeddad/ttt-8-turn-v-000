@@ -36,6 +36,7 @@ def turn(board)
  input = gets.strip
 
  index = input_to_index(input)
- board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
+ valid_move?()
+ 
 end
