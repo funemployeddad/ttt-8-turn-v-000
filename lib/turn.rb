@@ -39,7 +39,5 @@ def turn(board)
 
  valid_move?(board,index)
 
- position_taken?(board, index)
-
  move(board, position, char)
 end
